@@ -1,0 +1,76 @@
+body {
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+color: #777;
+background: #777;
+width: 960px;
+font-size: 18px;
+text-align:center;
+}
+
+.Header{
+    background: #ebebeb;
+    height: 150px;
+    margin: 10px 50px;
+    padding: 0;
+}
+
+.Nav {
+    background: #ebebeb;
+    height: 150px;
+    margin: 10px 50px;
+    padding: 0;
+}
+
+.Section{
+    background: #ebebeb;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin: 20px 5px 10px 50px;
+}
+
+.Aside{
+    background: #ebebeb;
+    width:40%;
+    height: 300px;
+    float: left;
+    margin: 20px 40px 10px 90px;
+}
+
+.Article{
+    color: #ebebeb;
+    background: #777;
+    height: 240px;
+    padding: 10px;
+    margin: 10px 25px 10px 25px;
+    width:80%;
+}
+
+.Headers{
+    color: #777;
+    background: #ebebeb;
+    height:50px;
+    padding: 10px;
+    margin: 30px 10px;
+} 
+
+.Paragraph{
+color: #777;
+background: #ebebeb;
+height:50px;
+padding: 10px;
+margin: 30px 10px;
+}
+
+.Footer{
+    background: #ebebeb;
+    height: 100px;
+    margin: 350px 50px 10px 50px;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
